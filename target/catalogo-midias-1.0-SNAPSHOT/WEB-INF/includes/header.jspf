@@ -1,0 +1,10 @@
+<link rel="stylesheet" href="${pageContext.request.contextPath}/assets/css/app.css">
+<div class="container">
+  <div class="page-width">
+    <div class="nav nav-center">
+      <a class="btn secondary equal" href="${pageContext.request.contextPath}/index.jsp">Cat&aacute;logo</a>
+      <a class="btn secondary equal" href="${pageContext.request.contextPath}/lista.jsp">Lista</a>
+      <a class="btn equal" href="${pageContext.request.contextPath}/novo.jsp">+ Nova M&iacute;dia</a>
+    </div>
+  </div>
+</div>

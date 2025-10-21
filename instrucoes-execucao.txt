@@ -1,0 +1,22 @@
+1) Banco:
+   - MySQL 8
+   - Executar sql\schema.sql
+
+2) Configurar conexão:
+   - src\main\java\br\projeto\infra\ConnectionFactory.java
+
+3) Build:
+   - mvn clean package
+
+4) Deploy:
+   - Tomcat 9 → Deploy WAR (target\catalogo-midias-1.0-SNAPSHOT.war)
+
+5) URLs:
+   - /index.jsp (home)
+   - /lista.jsp  (lista + filtros/ordem/paginação)
+   - /novo.jsp   (cadastro)
+   - /editar.jsp?id=...
+   - /detalhe.jsp?id=...
+
+6) Javadoc:
+   - target\site\apidocs\index.html

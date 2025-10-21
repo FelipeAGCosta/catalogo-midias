@@ -1,0 +1,94 @@
+:root{
+  --bg:#0b0b0f; --panel:#11131a; --text:#e6e6e6; --muted:#a9adc1;
+  --primary:#7c5cff; --accent:#24d2c1; --border:#202338; --input:#0f1118;
+}
+
+*{box-sizing:border-box}
+html,body{height:100%}
+body{
+  margin:0; background:var(--bg); color:var(--text);
+  font:16px/1.5 system-ui,Segoe UI,Roboto,Arial;
+}
+
+/* layout base */
+.container{max-width:1100px;margin:0 auto;padding:0 16px}
+.page-width{max-width:720px;margin:0 auto}
+.card{background:var(--panel);border-radius:16px;padding:20px;border:1px solid var(--border)}
+.card.center{max-width:720px;margin:12px auto}
+h1,h2,h3{margin:0 0 12px}
+
+/* nav */
+.nav{display:flex;gap:12px;align-items:center;padding:16px 0}
+.nav.nav-center{justify-content:center}
+
+/* botões */
+.btn{
+  display:inline-flex;align-items:center;justify-content:center;text-decoration:none;
+  padding:10px 16px;border-radius:12px;border:1px solid transparent;line-height:1;
+  background:var(--primary);color:#fff;font-weight:600;transition:transform .05s ease,opacity .15s ease;
+}
+.btn:hover{transform:translateY(-1px)}
+.btn.secondary{background:#2b2f45;border-color:#2b2f45;color:#fff}
+.btn.equal{min-width:140px;text-align:center}
+
+/* campos de formulário */
+label{display:block;margin:10px 0 6px;color:var(--muted)}
+.input,.select,.textarea{
+  width:100%;background:var(--input);color:var(--text);
+  border:1px solid var(--border);border-radius:10px;padding:10px;
+}
+.textarea{min-height:120px;resize:vertical}
+
+/* tabela */
+.table{width:100%;border-collapse:collapse;margin-top:12px}
+.table th,.table td{border-bottom:1px solid var(--border);padding:10px 12px;text-align:left}
+
+/* utilidades */
+.grid{display:grid;grid-template-columns:1fr;gap:12px}
+.mtop{margin-top:12px}
+.nav a{color:inherit;text-decoration:none;opacity:1}
+
+.poster{
+  width: 240px;           /* ajuste se quiser maior/menor */
+  aspect-ratio: 2 / 3;    /* retângulo 2:3 de pôster */
+  height: auto;
+  object-fit: contain;    /* mostra a imagem inteira, sem cortar */
+  object-position: center;
+  border-radius: 12px;
+  border: 1px solid #202338;
+  background: #0f1118;    /* cor das “faixas” quando a imagem não é 2:3 */
+  display: block;
+  max-width: 100%;
+}
+
+/* === Fundo global em grid (reaproveita o estilo do index) === */
+.site-bg{position:fixed; inset:0; z-index:-1; overflow:hidden}
+.site-bg .bg{
+  position:absolute; inset:0;
+  display:grid;
+  grid-template-columns:repeat(5,1fr); /* pode mudar p/ 6 se quiser mais colunas */
+  grid-auto-rows:24vh;
+  gap:10px;
+  padding:40px;
+  filter:blur(6px);
+  opacity:.28;
+  transform:scale(1.06);
+}
+.site-bg .bg img{
+  width:100%; height:100%;
+  object-fit:cover;
+  border-radius:12px;
+  border:1px solid #202338;
+  background:#0f1118;
+}
+.site-bg::after{
+  content:"";
+  position:absolute; inset:0;
+  background:
+    radial-gradient(1200px 600px at 50% 40%, #0000 0%, #0008 60%, #000C 100%),
+    linear-gradient(180deg, #0009 0%, #0008 40%, #000C 100%);
+}
+
+/* garante que os cards e conteúdo fiquem acima do fundo */
+.container, .card { position:relative; z-index:1; }
+

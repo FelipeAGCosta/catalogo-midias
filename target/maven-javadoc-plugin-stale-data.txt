@@ -1,0 +1,51 @@
+-locale pt_BR
+@options
+@packages
+-classpath
+'C:/Users/felip/.m2/repository/javax/servlet/jstl/1.2/jstl-1.2.jar;C:/Users/felip/.m2/repository/com/mysql/mysql-connector-j/8.0.33/mysql-connector-j-8.0.33.jar;C:/Users/felip/.m2/repository/com/google/protobuf/protobuf-java/3.21.9/protobuf-java-3.21.9.jar;C:/Users/felip/.m2/repository/javax/servlet/javax.servlet-api/4.0.1/javax.servlet-api-4.0.1.jar'
+-encoding
+'UTF-8'
+-protected
+-source
+'25'
+-sourcepath
+'C:/Users/felip/Documents/catalogo-midias/src/main/java'
+-author
+-bottom
+'Copyright &#169; 2025. All rights reserved.'
+-charset
+'UTF-8'
+-d
+'C:/Users/felip/Documents/catalogo-midias/target/site/apidocs'
+-docencoding
+'UTF-8'
+-doctitle
+'catalogo-midias 1.0-SNAPSHOT API'
+-use
+-version
+-windowtitle
+'catalogo-midias 1.0-SNAPSHOT API'
+br.projeto.dao
+br.projeto.infra
+br.projeto.model
+br.projeto.web
+C:\Users\felip\.m2\repository\javax\servlet\jstl\1.2\jstl-1.2.jar = 1760483416312
+C:\Users\felip\.m2\repository\com\mysql\mysql-connector-j\8.0.33\mysql-connector-j-8.0.33.jar = 1760483416473
+C:\Users\felip\.m2\repository\com\google\protobuf\protobuf-java\3.21.9\protobuf-java-3.21.9.jar = 1760483416452
+C:\Users\felip\.m2\repository\javax\servlet\javax.servlet-api\4.0.1\javax.servlet-api-4.0.1.jar = 1760483416391
+C:\Users\felip\Documents\catalogo-midias\src\main\java = 1760487324888
+C:\Users\felip\Documents\catalogo-midias\target\site\apidocs\allclasses-index.html = 1761075469761
+C:\Users\felip\Documents\catalogo-midias\target\site\apidocs\allpackages-index.html = 1761075469762
+C:\Users\felip\Documents\catalogo-midias\target\site\apidocs\element-list = 1761075469677
+C:\Users\felip\Documents\catalogo-midias\target\site\apidocs\help-doc.html = 1761075469783
+C:\Users\felip\Documents\catalogo-midias\target\site\apidocs\index-all.html = 1761075469777
+C:\Users\felip\Documents\catalogo-midias\target\site\apidocs\index.html = 1761075469747
+C:\Users\felip\Documents\catalogo-midias\target\site\apidocs\member-search-index.js = 1761075469766
+C:\Users\felip\Documents\catalogo-midias\target\site\apidocs\module-search-index.js = 1761075469763
+C:\Users\felip\Documents\catalogo-midias\target\site\apidocs\overview-summary.html = 1761075469780
+C:\Users\felip\Documents\catalogo-midias\target\site\apidocs\overview-tree.html = 1761075469744
+C:\Users\felip\Documents\catalogo-midias\target\site\apidocs\package-search-index.js = 1761075469764
+C:\Users\felip\Documents\catalogo-midias\target\site\apidocs\search.html = 1761075469779
+C:\Users\felip\Documents\catalogo-midias\target\site\apidocs\serialized-form.html = 1761075469709
+C:\Users\felip\Documents\catalogo-midias\target\site\apidocs\tag-search-index.js = 1761075469768
+C:\Users\felip\Documents\catalogo-midias\target\site\apidocs\type-search-index.js = 1761075469765
