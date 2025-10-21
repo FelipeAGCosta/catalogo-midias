@@ -1,7 +1,0 @@
-br\projeto\infra\ConnectionFactory.class
-br\projeto\dao\MidiaDAO.class
-br\projeto\web\AvaliarMidiaServlet.class
-br\projeto\web\AtualizarMidiaServlet.class
-br\projeto\web\CadastrarMidiaServlet.class
-br\projeto\web\ExcluirMidiaServlet.class
-br\projeto\model\Midia.class
